@@ -1,0 +1,7 @@
+
+/*mostrar nomes ainda não traduzidos com uma borda vermelha */
+<% if Rails.env.development? %>
+   .translation_missing {
+     border: 3px dashed red;
+   }
+<% end %>
