@@ -4,6 +4,9 @@
     <list default="true" id="fc506906-05de-4340-84f0-87d2f5be49ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/gil.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/room.rb" afterPath="$PROJECT_DIR$/app/models/room.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
@@ -17,7 +20,9 @@
     <file path="/_user_navbar.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383301283330" ignored="false" />
     <file path="/user_sessions_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383305577289" ignored="false" />
     <file path="/users_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383305588070" ignored="false" />
-    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383306536268" ignored="false" />
+    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383309216422" ignored="false" />
+    <file path="/room.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383307392302" ignored="false" />
+    <file path="/user.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383307502760" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,90 +56,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/user_sessions_controller.rb">
+      <file leaf-file-name="room.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/room.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="3" column="18" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rooms_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="69" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rooms_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131101115841_add_user_id_to_rooms.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131101115841_add_user_id_to_rooms.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04426003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="6" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="466" selection-end="466" vertical-scroll-proportion="-8.96">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_visitor_navbar.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_visitor_navbar.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="0" selection-end="218" vertical-scroll-proportion="-2.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pt-BR.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="53" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1383301659000" expanded="true" signature="0:1925" placeholder="pt-BR:" />
-                <marker date="1383301659000" expanded="true" signature="814:838" placeholder="links:" />
-                <marker date="1383301659000" expanded="true" signature="841:989" placeholder="layout:" />
-                <marker date="1383301659000" expanded="true" signature="992:1062" placeholder="general:" />
-                <marker date="1383301659000" expanded="true" signature="1682:1925" placeholder="flash:" />
-                <marker date="1383301659000" expanded="true" signature="1693:1761" placeholder="alert:" />
-                <marker date="1383301659000" expanded="true" signature="1766:1925" placeholder="notice:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_user_navbar.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_user_navbar.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="333" selection-end="333" vertical-scroll-proportion="-3.84">
+            <state line="6" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.12483745">
               <folding />
             </state>
           </provider>
@@ -169,6 +112,8 @@
         <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/controllers/user_sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/room.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
       </list>
     </option>
@@ -488,20 +433,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_user_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.17204301" />
@@ -567,21 +498,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="53" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1383301659000" expanded="true" signature="0:1925" placeholder="pt-BR:" />
-            <marker date="1383301659000" expanded="true" signature="814:838" placeholder="links:" />
-            <marker date="1383301659000" expanded="true" signature="841:989" placeholder="layout:" />
-            <marker date="1383301659000" expanded="true" signature="992:1062" placeholder="general:" />
-            <marker date="1383301659000" expanded="true" signature="1682:1925" placeholder="flash:" />
-            <marker date="1383301659000" expanded="true" signature="1693:1761" placeholder="alert:" />
-            <marker date="1383301659000" expanded="true" signature="1766:1925" placeholder="notice:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="pt-BR:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="links:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="layout:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="general:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="flash:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="alert:" />
+            <marker date="1383301659000" expanded="true" signature="-1:-1" placeholder="notice:" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user_session.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,23 +523,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131101115841_add_user_id_to_rooms.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="117" selection-end="117" vertical-scroll-proportion="0.11065007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/user_sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+        <state line="18" column="45" selection-start="561" selection-end="561" vertical-scroll-proportion="0.37451234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="69" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user_session.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/room.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131101115841_add_user_id_to_rooms.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04426003">
+        <state line="6" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.12483745">
           <folding />
         </state>
       </provider>
