@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 	#usuario nao autenticado pode criar seu perfil
 	before_action :require_no_authentication, only: [:new, :create]
 	#apenas usuario logado pode editar seu perfil
-	before_action :can_change, only[:edit, :update]
+	before_action :can_change, only: [:edit, :update]
 
 
 	def new
