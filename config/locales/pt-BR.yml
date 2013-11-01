@@ -29,11 +29,18 @@ pt-BR:
 
   links:
     back: Voltar
+
   layout:
     rooms: Quartos
+    new_room: Cadastre seu quarto!
     signup: Cadastro
+    signin: Login
+    my_profile: Meu ferfil
+    signout: Logout
+
   general:
     form_error: Há erros no formulário, por favor verifique.
+
   activerecord:
     models:
       room: Quarto
@@ -65,5 +72,9 @@ pt-BR:
       user_session:
         create: 'Entrar'
   flash:
+    alert:
+      needs_login: 'Você precisa estar logado para continuar'
     notice:
       signed_in: 'Login efetuado com sucesso'
+      signed_out: 'Logout efetuado com sucesso. Até logo!'
+      already_logged_in: 'Você já está logado'

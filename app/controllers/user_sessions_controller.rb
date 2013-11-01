@@ -1,4 +1,8 @@
 class UserSessionsController < ApplicationController
+	#usuario nao autenticado pode criar seu perfil
+	before_action :require_no_authentication, only: [:new, :create]
+	#apenas usuario autenticado pode deslogar
+	before_action :can_change, only: :destroy
 
 	def new
 		@user_session = UserSession.new(session)
@@ -15,6 +19,8 @@ class UserSessionsController < ApplicationController
 	end
 
 	def destroy
+		user_session.destroy
+		redirect_to root_path, notice: t('flash.notice.signed_out')
 	end
 
 end

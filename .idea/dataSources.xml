@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1367933202">
+    <data-source source="LOCAL" name="colchonet" product="MySQL" version="5.6.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="d463453f-0ce2-47d9-863a-f574184d6d20">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.NonRegisteringDriver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost</jdbc-url>
+      <user-name>root</user-name>
+      <schema-pattern>colchonet_development.* colchonet_test.*</schema-pattern>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/mysql-connector-java-5.1.26-bin.jar</url>
+        </library>
+      </libraries>
+      <ssh-properties>
+        <enabled>false</enabled>
+        <proxy-host>localhost:3000</proxy-host>
+        <proxy-port>3000</proxy-port>
+        <user>localhost:3000</user>
+        <use-password>false</use-password>
+        <password />
+        <private-key-path />
+        <passphrase />
+        <remote-host>1</remote-host>
+        <remote-port>3</remote-port>
+        <local-port>3000</local-port>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
+

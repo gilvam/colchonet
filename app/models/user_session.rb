@@ -26,4 +26,20 @@ class UserSession
 	def store(user)
 		@session[:user_id] = user.id
 	end
+
+	# retorna objeto da classe User que esta na sessao atual
+	def current_user
+		User.find(@session[:user_id])
+	end
+
+	# usuario possui sessao autenticada?
+	def user_signed_in?
+		@session[:user_id].present?
+	end
+
+	def destroy
+		@session[:user_id] = nil
+	end
+
+
 end
