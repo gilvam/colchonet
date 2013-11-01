@@ -2,9 +2,7 @@ class RoomsController < ApplicationController
 	before_action :require_authentication, only: [:new, :edit, :create, :update, :destroy]
 
 	def index
-		# Exercício pra você! Crie um escopo para ordenar
-		# os quartos dos mais recentes aos mais antigos.
-		@rooms = Room.find.all
+		@rooms = Room.most_recent
 	end
 
 	def show
@@ -46,12 +44,17 @@ class RoomsController < ApplicationController
 		redirect_to rooms_url
 	end
 
+
 	private
+
 	def room_params
-		params.
-	require(:room).
-		permit(:title, :location, :descriptions)
+		params.require(:room).permit(:title, :location, :descriptions)
 	end
+
+	def most_recent
+
+	end
+
 end
 
 

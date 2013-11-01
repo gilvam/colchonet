@@ -9,4 +9,11 @@ class Room < ActiveRecord::Base
 		"#{title}, #{location}"
 	end
 
+	# se confirmed_at esta nil, o email de confirmacao ainda nao foi feito
+	scope :confirmed, -> {where.not(confirmed_at: nil)}
+
+	# dos mais antigos aos mais recentes
+	scope :most_recent, -> {all.reverse}
+
+
 end
