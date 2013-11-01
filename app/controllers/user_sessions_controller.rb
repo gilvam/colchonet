@@ -2,7 +2,7 @@ class UserSessionsController < ApplicationController
 	#usuario nao autenticado pode criar seu perfil
 	before_action :require_no_authentication, only: [:new, :create]
 	#apenas usuario autenticado pode deslogar
-	before_action :can_change, only: :destroy
+	before_action :require_authentication, only: :destroy
 
 	def new
 		@user_session = UserSession.new(session)
