@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc506906-05de-4340-84f0-87d2f5be49ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_user_navbar.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_visitor_navbar.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/gil.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/colchonet.iml" afterPath="$PROJECT_DIR$/.idea/colchonet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user_session.rb" afterPath="$PROJECT_DIR$/app/models/user_session.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/user_sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/user_sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
@@ -31,7 +17,7 @@
     <file path="/_user_navbar.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383301283330" ignored="false" />
     <file path="/user_sessions_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383305577289" ignored="false" />
     <file path="/users_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383305588070" ignored="false" />
-    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383305680455" ignored="false" />
+    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383306536268" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rooms_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rooms_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="3" selection-start="798" selection-end="798" vertical-scroll-proportion="0.9958506">
+            <state line="26" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131101115841_add_user_id_to_rooms.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131101115841_add_user_id_to_rooms.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04426003">
               <folding />
             </state>
           </provider>
@@ -123,7 +118,15 @@
         <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="56" column="53" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1383301659000" expanded="true" signature="0:1925" placeholder="pt-BR:" />
+                <marker date="1383301659000" expanded="true" signature="814:838" placeholder="links:" />
+                <marker date="1383301659000" expanded="true" signature="841:989" placeholder="layout:" />
+                <marker date="1383301659000" expanded="true" signature="992:1062" placeholder="general:" />
+                <marker date="1383301659000" expanded="true" signature="1682:1925" placeholder="flash:" />
+                <marker date="1383301659000" expanded="true" signature="1693:1761" placeholder="alert:" />
+                <marker date="1383301659000" expanded="true" signature="1766:1925" placeholder="notice:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -485,13 +488,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_visitor_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
@@ -570,7 +566,15 @@
     <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="53" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1383301659000" expanded="true" signature="0:1925" placeholder="pt-BR:" />
+            <marker date="1383301659000" expanded="true" signature="814:838" placeholder="links:" />
+            <marker date="1383301659000" expanded="true" signature="841:989" placeholder="layout:" />
+            <marker date="1383301659000" expanded="true" signature="992:1062" placeholder="general:" />
+            <marker date="1383301659000" expanded="true" signature="1682:1925" placeholder="flash:" />
+            <marker date="1383301659000" expanded="true" signature="1693:1761" placeholder="alert:" />
+            <marker date="1383301659000" expanded="true" signature="1766:1925" placeholder="notice:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +608,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="3" selection-start="798" selection-end="798" vertical-scroll-proportion="0.9958506">
+        <state line="26" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131101115841_add_user_id_to_rooms.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04426003">
           <folding />
         </state>
       </provider>
