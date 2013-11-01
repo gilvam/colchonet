@@ -78,3 +78,15 @@ pt-BR:
       signed_in: 'Login efetuado com sucesso'
       signed_out: 'Logout efetuado com sucesso. Até logo!'
       already_logged_in: 'Você já está logado'
+
+  dialogs:
+    destroy: 'Você tem certeza que quer remover?'
+
+  rooms:
+    index:
+      title: 'Quatos disponíveis'
+    room:
+      #usar _html para retornar entidades HTML
+      owner_html: '&mdash; %{owner}(%{when})'
+      edit: 'Editar'
+      destroy: 'Remover'
