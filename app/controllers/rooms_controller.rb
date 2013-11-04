@@ -1,12 +1,22 @@
 class RoomsController < ApplicationController
-	before_action :require_authentication, only: [:new, :edit, :create, :update, :destroy]
+	PER_PAGE = 10
+
+	before_filter :require_authentication,
+								:only => [:new, :edit, :create, :update, :destroy]
 
 	def index
-		@rooms = Room.most_recent
+		# O método #map, de coleções, retornará um novo Array
+		# contendo o resultado do bloco. Dessa forma, para cada
+		# quarto, retornaremos o presenter equivalente.
+		@rooms = Room.most_recent.map do |room|
+			# Não exibiremos o formulário na listagem
+			RoomPresenter.new(room, self, false)
+		end
 	end
 
 	def show
-		@room = Room.find(params[:id])
+		room_model = Room.find(params[:id])
+		@room = RoomPresenter.new(room_model, self)
 	end
 
 	def new
@@ -18,10 +28,10 @@ class RoomsController < ApplicationController
 	end
 
 	def create
-		@room = current_user.rooms.build(room_params)
+		@room = current_user.rooms.build(params[:room])
 
 		if @room.save
-			redirect_to @room, notice: t('flash.notice.room_created')
+			redirect_to @room, :notice => t('flash.notice.room_created')
 		else
 			render action: "new"
 		end
@@ -30,10 +40,10 @@ class RoomsController < ApplicationController
 	def update
 		@room = current_user.rooms.find(params[:id])
 
-		if @room.update(room_params)
-			redirect_to @room, notice: t('flash.notice.room_updated')
+		if @room.update_attributes(params[:room])
+			redirect_to @room, :notice => t('flash.notice.room_updated')
 		else
-			render action: "edit"
+			render :action => "edit"
 		end
 	end
 
@@ -43,20 +53,4 @@ class RoomsController < ApplicationController
 
 		redirect_to rooms_url
 	end
-
-
-	private
-
-	def room_params
-		params.require(:room).permit(:title, :location, :descriptions)
-	end
-
-	def most_recent
-
-	end
-
 end
-
-
-
-

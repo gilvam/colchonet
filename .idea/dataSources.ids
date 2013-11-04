@@ -28,6 +28,16 @@
     </ssh-properties>
     <schema name="" catalog="colchonet_development"/>
     <schema name="" catalog="colchonet_test"/>
+    <table name="reviews" schema="" catalog="colchonet_development" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="room_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="points" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="created_at" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="index_reviews_on_user_id_and_room_id" unique="true" columns="user_id,room_id"/>
+    </table>
     <table name="rooms" schema="" catalog="colchonet_development" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
@@ -35,7 +45,10 @@
       <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
       <column name="created_at" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
       <column name="updated_at" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="user_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="reviews_count" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
+      <index name="index_rooms_on_user_id" unique="false" columns="user_id"/>
     </table>
     <table name="schema_migrations" schema="" catalog="colchonet_development" type="TABLE">
       <column name="version" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>

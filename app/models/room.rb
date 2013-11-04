@@ -1,5 +1,6 @@
 class Room < ActiveRecord::Base
 
+	has_many :reviews, dependent: :destroy
 	belongs_to :user
 
 	validates_presence_of :title, :location
@@ -13,7 +14,7 @@ class Room < ActiveRecord::Base
 	scope :confirmed, -> {where.not(confirmed_at: nil)}
 
 	# dos mais antigos aos mais recentes
-	scope :most_recent, -> {all.reverse}
+scope :most_recent, -> {all.reverse}
 
 
 end
