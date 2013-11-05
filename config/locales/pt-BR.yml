@@ -86,6 +86,9 @@ pt-BR:
   rooms:
     index:
       title: 'Quartos disponíveis'
+      search_results: 'Resultados da busca'
+    search:
+      search_for: 'Buscar por...'
     room:
       #usar _html para retornar entidades HTML
       owner_html: '&mdash; %{owner}(%{when})'

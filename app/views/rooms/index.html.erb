@@ -1,4 +1,11 @@
-<h1><%= t '.title' %></h1>
-
-<!--renderiza room por room sem precisar de fazer o loop (pode ser apenas: <%#= render @rooms %>)-->
-<%= render @rooms, locals: {the_room: current_user.rooms.first} %>
+<%= render 'search' %>
+<h1>
+  <% if @search_query.present? %>
+    <%= t '.search_results' %>
+  <% else %>
+    <%= t '.title' %>
+  <% end %>
+  (<%= @rooms.size %>)
+</h1>
+<%= render @rooms %>
+<%#= render @rooms, locals: {the_room: current_user.rooms.first} %>

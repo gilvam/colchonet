@@ -14,7 +14,19 @@ class Room < ActiveRecord::Base
 	scope :confirmed, -> {where.not(confirmed_at: nil)}
 
 	# dos mais antigos aos mais recentes
-scope :most_recent, -> {all.reverse}
+	scope :most_recent, -> {all.reverse}
+
+	def self.search(query)
+		if query.present?
+			where(['location LIKE :query OR
+              title LIKE :query OR
+              description LIKE :query', query: "%#{query}%"])
+
+		#se não tem resultado da busca, continua com o resultado antigo
+		else
+			scoped
+		end
+	end
 
 
 end
