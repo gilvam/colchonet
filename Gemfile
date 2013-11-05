@@ -6,8 +6,12 @@ gem 'rails', '4.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+gem 'activesupport'
+
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
+
+gem 'tzinfo'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -37,6 +41,17 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # server mail
 gem  'mailcatcher'
+
+#gem 'tzinfo', '~> 1.1.0'
+
+# dependence of font-awesome-sass
+# http://rubygems.org/gems/activesupport
+
+
+
+
+gem 'font-awesome-sass'
+####gem 'font-awesome-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -40,6 +40,8 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
+    font-awesome-sass (4.0.2)
+      sass-rails (>= 3.1.1)
     haml (4.0.3)
       tilt
     hike (1.2.3)
@@ -91,8 +93,8 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     sass (3.2.12)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
+    sass-rails (4.0.1)
+      railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
     sdoc (0.3.20)
@@ -130,7 +132,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (1.3.0)
       coffee-rails
-    tzinfo (0.3.37)
+    tzinfo (0.3.38)
     uglifier (2.2.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
@@ -139,14 +141,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   bcrypt-ruby (~> 3.0.0)
   coffee-rails (~> 4.0.0)
+  font-awesome-sass
   jbuilder (~> 1.2)
   jquery-rails
   mailcatcher
   mysql2
   rails (= 4.0.0)
-  sass-rails (~> 4.0.0)
+  sass-rails
   sdoc
   turbolinks
+  tzinfo
   uglifier (>= 1.3.0)
