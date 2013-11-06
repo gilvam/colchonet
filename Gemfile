@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -6,11 +6,13 @@ gem 'rails', '4.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+# dependence of font-awesome-sass
 gem 'activesupport'
 
-# Use SCSS for stylesheets
+# Use SCSS for stylesheets ( and dependence of font-awesome-sass)
 gem 'sass-rails'
 
+# dependence of font-awesome-sass
 gem 'tzinfo'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -42,16 +44,12 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # server mail
 gem  'mailcatcher'
 
-#gem 'tzinfo', '~> 1.1.0'
-
-# dependence of font-awesome-sass
-# http://rubygems.org/gems/activesupport
-
-
-
-
+# fonts - images
 gem 'font-awesome-sass'
-####gem 'font-awesome-rails'
+
+# url amigável
+#https://github.com/norman/friendly_id
+gem 'friendly_id', '~> 5.0.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
