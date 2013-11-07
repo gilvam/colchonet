@@ -50,4 +50,19 @@ class RoomPresenter
 		'room'
 	end
 
+
+
+	#picture
+	def picture_url
+		@room.picture_url
+	end
+
+	def thumb_url
+		@room.picture.thumb.url
+	end
+
+	def has_picture?
+		@room.picture?
+	end
+
 end

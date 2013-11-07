@@ -89,3 +89,22 @@
   font-weight: inherit;
   background-color: gold;
 }
+
+
+// imagem ----------
+.room-description {
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+}
+//.room-description {
+//  p, img {
+//    float: left;
+//    margin-right: 10px;
+//  }
+//}
+.room-description + ul {
+  padding-top: 10px;
+  clear: both;
+}

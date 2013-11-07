@@ -55,6 +55,16 @@ gem 'friendly_id', '~> 5.0.0' # Note: You MUST use 5.0.0 or greater for Rails 4.
 #https://github.com/amatsuda/kaminari
 gem 'kaminari', '> 0.14'
 
+
+# imagens e thumbnails
+# https://github.com/rmagick/rmagick
+# precisei usar um outro comando para instalar o rmagick: "brew install -f imagemagick --disable-openmp"
+gem 'carrierwave'
+gem 'rmagick', '~> 2.13.2'
+
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

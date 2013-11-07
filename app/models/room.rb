@@ -6,6 +6,7 @@ class Room < ActiveRecord::Base
 
 	validates_presence_of :title, :location, :slug
 	validates_length_of :description, minimun: 30, allow_blank: false
+	mount_uploader :picture, PictureUploader
 	friendly_id :title, use: [:slugged, :history]
 
 	def complete_name

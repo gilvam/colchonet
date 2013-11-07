@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc506906-05de-4340-84f0-87d2f5be49ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/pt-BR.pagination.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/room_collection_presenter.rb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/_room.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/_room.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/colchonet.iml" afterPath="$PROJECT_DIR$/.idea/colchonet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/index.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/room.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/room.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/room.rb" afterPath="$PROJECT_DIR$/app/models/room.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/room_presenter.rb" afterPath="$PROJECT_DIR$/app/presenters/room_presenter.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
@@ -25,7 +27,7 @@
     <file path="/_user_navbar.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383301283330" ignored="false" />
     <file path="/user_sessions_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383312716310" ignored="false" />
     <file path="/users_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383312420832" ignored="false" />
-    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383743020829" ignored="false" />
+    <file path="/rooms_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383823060608" ignored="false" />
     <file path="/room.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383732356594" ignored="false" />
     <file path="/user.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383325090156" ignored="false" />
     <file path="/a.dummy" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383742160084" ignored="false" />
@@ -34,7 +36,7 @@
     <file path="/index.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383819128775" ignored="false" />
     <file path="/_room.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383743458965" ignored="false" />
     <file path="/default.css.scss" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383319465441" ignored="false" />
-    <file path="/room.css.scss" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383668320626" ignored="false" />
+    <file path="/room.css.scss" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383825032247" ignored="false" />
     <file path="/20131101162906_create_reviews.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383323569029" ignored="false" />
     <file path="/review.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383583538386" ignored="false" />
     <file path="/routes.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383562478244" ignored="false" />
@@ -42,13 +44,16 @@
     <file path="/home_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383560289836" ignored="false" />
     <file path="/_review.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383653481447" ignored="false" />
     <file path="/_review_form.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383656900460" ignored="false" />
-    <file path="/Gemfile" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383745982641" ignored="false" />
+    <file path="/Gemfile" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383821670524" ignored="false" />
     <file path="/room.js" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383656275184" ignored="false" />
     <file path="/_search.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383666184232" ignored="false" />
     <file path="/20131105173130_add_slugs_to_rooms.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383729528538" ignored="false" />
     <file path="/room_collection_presenter.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383745885677" ignored="false" />
     <file path="$PROJECT_DIR$/../colcho.net - vinibaggio/app/presenters/room_collection_presenter.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383739693391" ignored="false" />
     <file path="/application_helper.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383740004141" ignored="false" />
+    <file path="/picture_uploader.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383822046929" ignored="false" />
+    <file path="/_form.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383822961407" ignored="false" />
+    <file path="/room_presenter.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383824401002" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,16 +81,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="23" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+            <state line="45" column="31" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="room_collection_presenter.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/room_collection_presenter.rb">
+      <file leaf-file-name="picture_uploader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="3" column="42" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,34 +99,16 @@
       <file leaf-file-name="room_presenter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/room_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="85" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="45" column="55" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/rooms/index.html.erb">
+      <file leaf-file-name="_room.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/rooms/_room.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="3" selection-start="271" selection-end="271" vertical-scroll-proportion="0.29928058">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pt-BR.pagination.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.pagination.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="0" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0">
+            <state line="6" column="37" selection-start="196" selection-end="196" vertical-scroll-proportion="0.14076246">
               <folding />
             </state>
           </provider>
@@ -130,7 +117,16 @@
       <file leaf-file-name="room.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/room.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="67" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="13" column="43" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/rooms/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="657" selection-end="657" vertical-scroll-proportion="-16.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +135,7 @@
       <file leaf-file-name="rooms_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="50" column="42" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,22 +159,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/room.js" />
-        <option value="$PROJECT_DIR$/app/views/rooms/_search.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/room.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20131105173130_add_slugs_to_rooms.rb" />
-        <option value="$PROJECT_DIR$/app/models/room.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
         <option value="$PROJECT_DIR$/app/helpers/rooms_helper.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/rooms/_room.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/config/locales/pt-BR.pagination.yml" />
-        <option value="$PROJECT_DIR$/app/presenters/room_presenter.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/presenters/room_collection_presenter.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/rooms/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/room.rb" />
+        <option value="$PROJECT_DIR$/app/views/rooms/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
+        <option value="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/room_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/views/rooms/_room.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/room.css.scss" />
       </list>
     </option>
   </component>
@@ -270,74 +266,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locales" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,29 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colchonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="uploaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,7 +486,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18680556" sideWeight="0.67001253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26496816" sideWeight="0.67055774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26496816" sideWeight="0.67055774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -661,38 +567,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/helpers/text_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="10" selection-start="5106" selection-end="5106" vertical-scroll-proportion="0.33239037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/room.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="12" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rooms/_search.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="143" selection-end="143" vertical-scroll-proportion="0.044568244" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/room.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="67" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/rooms_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="99" selection-end="99" vertical-scroll-proportion="0.11477762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131105173130_add_slugs_to_rooms.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="151" selection-end="151" vertical-scroll-proportion="0.14243324" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="169" column="0" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0">
@@ -700,19 +574,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rooms/_room.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="830" selection-end="830" vertical-scroll-proportion="0.58651024" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="2" selection-start="185" selection-end="185" vertical-scroll-proportion="0.16374269" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.pagination.yml">
@@ -722,37 +586,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/room_presenter.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/rooms/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="85" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="23" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+        <state line="3" column="74" selection-start="92" selection-end="92" vertical-scroll-proportion="0.06906475">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/room_collection_presenter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+        <state line="2" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.04306864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="31" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131107110421_add_picture_to_rooms.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="103" selection-end="103" vertical-scroll-proportion="0.04306864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/room.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="43" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/rooms/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="657" selection-end="657" vertical-scroll-proportion="-16.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="30" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="50" column="42" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rooms/index.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/erubis-2.7.0/lib/erubis/helpers/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="271" selection-end="271" vertical-scroll-proportion="0.29928058">
+        <state line="41" column="11" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.33239037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/room_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="55" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/room.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="20" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.30847952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/rooms/_room.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="196" selection-end="196" vertical-scroll-proportion="0.14076246">
           <folding />
         </state>
       </provider>
