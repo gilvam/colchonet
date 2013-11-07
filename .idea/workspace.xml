@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc506906-05de-4340-84f0-87d2f5be49ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +34,7 @@
     <file path="/home_controller.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383560289836" ignored="false" />
     <file path="/_review.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383653481447" ignored="false" />
     <file path="/_review_form.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383656900460" ignored="false" />
-    <file path="/Gemfile" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383837356504" ignored="false" />
+    <file path="/Gemfile" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383864690638" ignored="false" />
     <file path="/room.js" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383656275184" ignored="false" />
     <file path="/_search.html.erb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383666184232" ignored="false" />
     <file path="/20131105173130_add_slugs_to_rooms.rb" changelist="fc506906-05de-4340-84f0-87d2f5be49ae" time="1383729528538" ignored="false" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="13" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.56164384">
+            <state line="4" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.087671235">
               <folding />
             </state>
           </provider>
@@ -636,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="13" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.56164384">
+        <state line="4" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.087671235">
           <folding />
         </state>
       </provider>
