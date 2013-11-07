@@ -4,7 +4,6 @@
     <list default="true" id="fc506906-05de-4340-84f0-87d2f5be49ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +71,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.087671235">
+            <state line="3" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.06575342">
               <folding />
             </state>
           </provider>
@@ -638,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.087671235">
+        <state line="3" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.06575342">
           <folding />
         </state>
       </provider>
