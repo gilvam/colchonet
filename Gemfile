@@ -70,6 +70,7 @@ gem 'carrierwave'
 gem 'rmagick', '~> 2.13.2'
 
 
+gem 'rails_12factor'
 
 
 # Use ActiveModel has_secure_password
