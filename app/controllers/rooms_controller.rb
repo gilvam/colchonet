@@ -1,16 +1,23 @@
 class RoomsController < ApplicationController
+	PER_PAGE = 10
+	delegate :current_page, :num_pages, :limit_value, :total_pages, to: :@rooms
+	before_action :require_authentication, only: [:new, :edit, :create, :update, :destroy]
 
-	before_action :require_authentication,
-								only: [:new, :edit, :create, :update, :destroy]
+	#def index
+	#	@search_query = params[:q]
+	#
+	#	rooms = Room.search(@search_query).
+	#			page(params[:page]).
+	#			per(PER_PAGE)
+	#
+	#	@rooms = RoomCollectionPresenter.new(rooms.most_recent, self)
+	#end
 
 	def index
 		@search_query = params[:q]
+		rooms = Room.search(@search_query).page(params[:page]).per(PER_PAGE)
 
-		rooms = Room.search(@search_query)
-		@rooms = rooms.most_recent.map do |room|
-			# Não exibiremos o formulário na listagem
-			RoomPresenter.new(room, self, false)
-		end
+		@rooms = RoomCollectionPresenter.new(rooms.most_recent, self)
 	end
 
 	def show
@@ -60,4 +67,5 @@ class RoomsController < ApplicationController
 				require(:room).
 				permit(:title, :location, :description)
 	end
+
 end

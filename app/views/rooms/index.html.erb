@@ -5,7 +5,14 @@
   <% else %>
     <%= t '.title' %>
   <% end %>
-  (<%= @rooms.size %>)
+  <!--(<%#= @rooms.size %>)-->
 </h1>
-<%= render @rooms %>
+
 <%#= render @rooms, locals: {the_room: current_user.rooms.first} %>
+<%= render @rooms %>
+
+<%#= paginate @rooms %>
+
+
+
+

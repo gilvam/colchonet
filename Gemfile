@@ -51,6 +51,10 @@ gem 'font-awesome-sass'
 #https://github.com/norman/friendly_id
 gem 'friendly_id', '~> 5.0.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
+#paginate
+#https://github.com/amatsuda/kaminari
+gem 'kaminari', '> 0.14'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
