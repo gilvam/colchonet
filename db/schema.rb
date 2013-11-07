@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20131107110421) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "friendly_id_slugs", force: true do |t|
     t.string   "slug",                      null: false
     t.integer  "sluggable_id",              null: false
@@ -56,9 +59,9 @@ ActiveRecord::Schema.define(version: 20131107110421) do
     t.string   "email"
     t.string   "location"
     t.text     "bio"
-    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password_digest"
     t.datetime "confirmed_at"
     t.string   "confirmation_token"
   end

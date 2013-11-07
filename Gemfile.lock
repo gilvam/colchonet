@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
@@ -78,7 +78,7 @@ GEM
     mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.8.2)
-    mysql2 (0.3.13)
+    pg (0.17.0)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-protection (1.5.1)
@@ -161,7 +161,7 @@ DEPENDENCIES
   jquery-rails
   kaminari (> 0.14)
   mailcatcher
-  mysql2
+  pg
   rails (= 4.0.0)
   rmagick (~> 2.13.2)
   sass-rails

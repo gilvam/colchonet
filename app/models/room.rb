@@ -21,9 +21,11 @@ class Room < ActiveRecord::Base
 
 	def self.search(query)
 		if query.present?
-			where(['location LIKE :query OR
-              title LIKE :query OR
-              description LIKE :query', query: "%#{query}%"])
+			#postgre sql
+			where(['location ILIKE :query OR title ILIKE :query OR description ILIKE :query', query: "%#{query}%"])
+
+			#mysql
+			#where(['location LIKE :query OR title LIKE :query OR description LIKE :query', query: "%#{query}%"])
 
 		#se não tem resultado da busca, continua com o resultado antigo
 		else
