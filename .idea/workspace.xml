@@ -5,6 +5,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/colchonet.iml" afterPath="$PROJECT_DIR$/.idea/colchonet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colchonet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +74,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="43" selection-start="160" selection-end="160" vertical-scroll-proportion="0.10958904">
+            <state line="13" column="20" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2849315">
               <folding />
             </state>
           </provider>
@@ -638,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="160" selection-end="160" vertical-scroll-proportion="0.10958904">
+        <state line="13" column="20" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2849315">
           <folding />
         </state>
       </provider>

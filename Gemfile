@@ -3,8 +3,17 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'sqlite3', group: [:development, :test]
-gem 'pg', group: [:production]
+group :development, :test  do
+	#gem 'sqlite3'
+	# Use mysql as the database for Active Record
+	gem 'mysql2'
+	# server mail
+	gem 'mailcatcher'
+end
+
+group :production do
+	gem 'pg'
+end
 
 
 # dependence of font-awesome-sass
@@ -41,9 +50,6 @@ end
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
-
-# server mail
-gem  'mailcatcher'
 
 # fonts - images
 gem 'font-awesome-sass'
